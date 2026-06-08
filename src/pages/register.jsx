@@ -26,7 +26,7 @@ function Register () {
   const handleRegister = async () => {
     try {
       setError('')
-      await axios.post('http://localhost:3000/api/auth/register', {
+      await axios.post('https://auth-fileupload.onrender.com/api/auth/register', {
         username,
         email,
         password
